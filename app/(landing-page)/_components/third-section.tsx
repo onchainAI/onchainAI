@@ -1,15 +1,15 @@
 const ThirdSection = () => {
-    return ( 
-    <div className="py-20 items-center flex flex-col justify-center">
-        <div className="px-12">
-            <div className="text-[#2b1c50] md:text-center flex md:justify-center items-center text-3xl md:text-6xl font-medium">
-                Unified web3 platform for AI
+    return (
+        <div className="py-20 flex flex-col items-center text-center">
+            <div className="max-w-4xl px-4">
+                <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground">
+                    Unified web3 platform for AI
+                </h2>
+                <p className="pt-6 text-xl md:text-2xl font-light text-muted-foreground">
+                    Tailor custom AI solutions with our all-in-one web3 tech stack
+                </p>
             </div>
-            <div className="pt-6 py-16 md:pb-24 text-[#3d2e7c] text-xl md:text-3xl font-light items-center justify-center">
-                Tailor custom AI solutions with our all-in-one web3 tech stack
-            </div>
-        </div>
-    </div> );
+        </div>);
 }
- 
+
 export default ThirdSection;

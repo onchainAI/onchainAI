@@ -2,23 +2,22 @@ import { Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
-    return ( <div>
-        <section className="md:flex flex-col md:py-10 md:justify-between">
-            <div className="p-10 space-y-10 md:space-y-0 md:text-center md:flex justify-between md:px-80 md:px-8- md:space-x-20">
-                <div className="text-[#565add]">
-                    @2023 onchainAI.io
+    return (
+        <footer className="border-t border-border bg-background">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div className="text-sm text-muted-foreground">
+                    &copy; 2023 onchainAI.io. All rights reserved.
                 </div>
-                <div className="flex items-center justify-center space-x-2">
+                <div className="flex items-center space-x-4">
                     <Link href="https://linkedin.com/company/onchainai" target="_blank">
-                    <div className="bg-[#565add] p-2 rounded-full">
-                        <Linkedin className="h-6 w-6 text-white">
-                        </Linkedin>
-                    </div>
+                        <div className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors">
+                            <Linkedin className="h-5 w-5 text-primary" />
+                        </div>
                     </Link>
+
                 </div>
             </div>
-        </section>
-    </div> );
+        </footer>);
 }
- 
+
 export default Footer;

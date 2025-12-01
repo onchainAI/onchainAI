@@ -3,29 +3,29 @@ import Logo from "./_components/logo";
 import { NavigationMenuBar } from "./_components/menu";
 
 const Navbar = () => {
-    return ( <div
+    return (<div
         className="
-        flex
-        items-center
-        justify-between
-        pr-10
-        lg:px-20
         sticky
         top-0
         z-50
-        bg-white
-        h-24
+        bg-background/80
+        backdrop-blur-md
+        border-b
+        border-border
+        h-20
+        flex
+        items-center
         ">
-        <div className="px-4">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
             <div className="w-40">
-                <Logo/>
+                <Logo />
+            </div>
+            <div className="flex items-center gap-4">
+                <NavigationMenuBar />
+                <ActionsButtons />
             </div>
         </div>
-        <div className="flex items-center">
-            <NavigationMenuBar/>
-            <ActionsButtons/>
-        </div>
-    </div> );
+    </div>);
 }
- 
+
 export default Navbar;

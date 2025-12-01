@@ -10,6 +10,46 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(landing-page)/page.js"
+    ],
+    "/products/onchain-llms/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/onchain-llms/page.js"
+    ],
+    "/products/onchain-vectordb/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/onchain-vectordb/page.js"
+    ],
+    "/products/onchain-embeddings/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/onchain-embeddings/page.js"
+    ],
+    "/products/onchain-datasets/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/onchain-datasets/page.js"
+    ],
+    "/use-cases/chatbot-dapps/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/use-cases/chatbot-dapps/page.js"
+    ],
+    "/use-cases/semantic-web3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/use-cases/semantic-web3/page.js"
+    ],
+    "/use-cases/oracle-agents/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/use-cases/oracle-agents/page.js"
+    ],
+    "/use-cases/knowledge-nfts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/use-cases/knowledge-nfts/page.js"
     ]
   }
 }

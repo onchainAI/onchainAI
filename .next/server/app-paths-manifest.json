@@ -1,3 +1,11 @@
 {
-  "/(landing-page)/page": "app/(landing-page)/page.js"
+  "/(landing-page)/page": "app/(landing-page)/page.js",
+  "/products/onchain-llms/page": "app/products/onchain-llms/page.js",
+  "/use-cases/semantic-web3/page": "app/use-cases/semantic-web3/page.js",
+  "/products/onchain-vectordb/page": "app/products/onchain-vectordb/page.js",
+  "/use-cases/chatbot-dapps/page": "app/use-cases/chatbot-dapps/page.js",
+  "/products/onchain-datasets/page": "app/products/onchain-datasets/page.js",
+  "/use-cases/oracle-agents/page": "app/use-cases/oracle-agents/page.js",
+  "/use-cases/knowledge-nfts/page": "app/use-cases/knowledge-nfts/page.js",
+  "/products/onchain-embeddings/page": "app/products/onchain-embeddings/page.js"
 }

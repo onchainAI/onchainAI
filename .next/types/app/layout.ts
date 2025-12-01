@@ -1,4 +1,4 @@
-// File: /Users/regan-mac/Documents/GitHub Projects/onchainAI/app/layout.tsx
+// File: /Users/regan-mac/Projects/onchainai/onchainAI/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

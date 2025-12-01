@@ -3,37 +3,37 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const SecondSection = () => {
-    return ( 
-        <div className="flex items-center justify-center">
-            <div className="w-full md:w-5/6 md:rounded-[80px] bg-[#2b1c50]">
-                <div className="md:py-40">
-                    <div className="md:py-40">
-                        <div className="md:flex md:px-20 px-5 md:space-x-20 md:space-y-0">
-                            <div className="md:w-1/2">
-                                <Image src='/world.svg' alt="image" width={1920} height={1080} className="object-cover rounded-md w-full p-10"/>
-                            </div>
-                            <div className="text-white flex space-y-10 md:w-1/2">
-                                <div className="md:space-y-10 flex flex-col px-4 py-10">
-                                    <div className="text-5xl md:text-7xl pb-4 md:pb-0">onChain AI</div>
-                                    <div className="text-xl md:text-3xl w-5/6">
-                                        Streamline AI with blockchain primitives
+    return (
+        <div className="py-20 lg:py-32">
+            <div className="w-full bg-secondary/30 rounded-3xl lg:rounded-[3rem] overflow-hidden">
+                <div className="flex flex-col lg:flex-row lg:items-center">
+                    <div className="lg:w-1/2 p-8 lg:p-12">
+                        <Image src='/world.svg' alt="image" width={1920} height={1080} className="object-cover rounded-2xl w-full shadow-lg" />
+                    </div>
+                    <div className="lg:w-1/2 p-8 lg:p-12 lg:pl-0">
+                        <div className="space-y-6">
+                            <h2 className="text-3xl lg:text-5xl font-bold text-foreground">onchainAI</h2>
+                            <p className="text-lg lg:text-2xl text-muted-foreground">
+                                Streamline AI with blockchain primitives
+                            </p>
+                            <div className="space-y-6 pt-6">
+                                <div className="flex items-start gap-4">
+                                    <div className="bg-primary/10 p-2 rounded-full">
+                                        <Check className="text-xl text-primary" />
                                     </div>
-                                    <div className="md:flex pt-10 md:py-10">
-                                        <div className="space-y-10">
-                                            <div className="flex items-center gap-4">
-                                                <Check className="text-3xl text-indigo-500"/>
-                                                <span className="text-xl">Cryptographically store & retrieve vector embeddings on blockchain, ensuring data integrity for AI</span>
-                                            </div>
-                                            <div className="flex items-center gap-4">
-                                                <Check className="text-3xl text-indigo-500"/>
-                                                <span className="text-xl">Curate, explore & own data as dynamic NFTs on blockchain, enabling data composability for AI</span>
-                                            </div>
-                                            <div className="flex items-center gap-4">
-                                                <Check className="text-3xl text-indigo-500"/>
-                                                <span className="text-xl">Validate model data & response feedback through web3 signatures, empowering Gig economy for AI</span>
-                                            </div>
-                                        </div>
+                                    <span className="text-lg text-foreground/80">Cryptographically store & retrieve vector embeddings on blockchain, ensuring data integrity for AI</span>
+                                </div>
+                                <div className="flex items-start gap-4">
+                                    <div className="bg-primary/10 p-2 rounded-full">
+                                        <Check className="text-xl text-primary" />
                                     </div>
+                                    <span className="text-lg text-foreground/80">Curate, explore & own data as dynamic NFTs on blockchain, enabling data composability for AI</span>
+                                </div>
+                                <div className="flex items-start gap-4">
+                                    <div className="bg-primary/10 p-2 rounded-full">
+                                        <Check className="text-xl text-primary" />
+                                    </div>
+                                    <span className="text-lg text-foreground/80">Validate model data & response feedback through web3 signatures, empowering Gig economy for AI</span>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const SecondSection = () => {
                 </div>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default SecondSection;

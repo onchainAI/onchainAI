@@ -2,29 +2,29 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const FirstSection = () => {
-    return ( 
-    <section className="xl:py-36 py-10 px-10 bg-[#d1d1f7]">
-        <div className="md:items-center flex flex-col">
-            <div className="lg:text-5xl xl:text-6xl text-4xl flex justify-center font-medium text-[#2b1c50] pt-10">
-                web3 rails for GenAI
+    return (
+        <section className="py-20 lg:py-32">
+            <div className="flex flex-col items-center text-center">
+                <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-foreground pt-10">
+                    web3 rails for GenAI
+                </h1>
+                <p className="text-xl xl:text-2xl font-light text-muted-foreground mt-6 max-w-2xl">
+                    Envision Responsible AI through Blockchain
+                </p>
+                <div className="flex gap-4 py-10">
+                    <Link href="/">
+                        <Button className="text-lg xl:text-xl font-medium rounded-full py-6 px-10 bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-primary/25 hover:scale-105">
+                            Launching Soon
+                        </Button>
+                    </Link>
+                </div>
+                <div className="mt-10 w-full max-w-5xl">
+                    <video className="rounded-3xl shadow-2xl border border-border w-full" autoPlay muted loop playsInline>
+                        <source src="/videos/pexels-google-deepmind.mp4" type="video/mp4" />
+                    </video>
+                </div>
             </div>
-            <p className="text-xl xl:text-3xl font-light xl:w-1/2 text=[#3d2e7c] lg:pt-6 pt-4 md:text-center">
-                Envision Responsible AI through Blockchain
-            </p>
-            <div className="flex gap-4 py-10 xl:pt-10">
-                <Link href="/">
-                    <Button className="xl:text-3xl text-xl md:justify-center md:flex font-light rounded-[60px] border-8 border-indigo-400/90 py-9 px-10 xl:py-12 xl:px-24 bg-[#565add] transition-all duration-300 shadow-md hover:shadow-indigo-300 hover:scale-110">
-                        Launching Soon
-                    </Button>
-                </Link>
-            </div>
-            <div className="xl:pt-28">
-                <video className="rounded-[40px] shadow-indigo-400 shadow-xl xl:w-5/6 xl:mx-auto" autoPlay muted loop>
-                    <source src="/videos/pexels-google-deepmind.mp4" type="video/mp4"/>
-                </video>
-            </div>
-        </div>
-    </section> );
+        </section>);
 }
- 
+
 export default FirstSection;
